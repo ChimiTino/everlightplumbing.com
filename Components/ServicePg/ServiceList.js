@@ -3,7 +3,7 @@ import * as BsIcons from 'react-icons/bs'
 import * as RiIcons from 'react-icons/ri'
 import * as GiIcons from 'react-icons/gi'
 import * as AiIcons from 'react-icons/ai'
-import img from '../../'
+
 
 
 export const ServicesList = [
@@ -22,7 +22,7 @@ export const ServicesList = [
                 <li className='font'>Blocked Drains</li>
                 <li className='font'>Certificate of Compliance</li>
             </ul>,
-        image: require('../../public/iStock-1204813771.jpg'),
+        image: '/iStock-1204813771.jpg',
     },
     {
         name:'Home Renovations & Restorations',
@@ -38,7 +38,7 @@ export const ServicesList = [
             <li className='font'>Water Proofing </li>
             <li className='font'>Building and Renovating </li>
         </ul>,
-        image: require('../../public/male-architect-drawing-improvements-on-housing-plan-at-construction-site--891274328-5acbae1318ba0100375f4920.jpg'),
+        image: '/male-architect-drawing-improvements-on-housing-plan-at-construction-site--891274328-5acbae1318ba0100375f4920.jpg',
     },
     {
         name:'Electrical Engineering',
@@ -52,7 +52,7 @@ export const ServicesList = [
     <li className='font'>  Distributions Boards </li>
     <li className='font'> New Installations & Rewiring</li>
 </ul>,
-        image: require('../../public/work-of-an-electrician.jpg'),
+        image: '/work-of-an-electrician.jpg',
     },
     {
         name:'Geyser Installations & Maintenance',
@@ -66,21 +66,21 @@ export const ServicesList = [
             <li className='font'>Geyser Installations and repairs </li>
             <li className='font'>Thermostat and element replacement</li>
         </ul>,
-        image:require('../../public/On-site-13.jpeg'),
+        image:'/On-site-13.jpeg',
     }
     ,{
         name:'Solar Installation ',
         icon: <BsIcons.BsFillSunFill/>,
         description:'The use of solar geysers is growing, and we have experience installing and updating existing solar geyser systems.  Solar power is now even more practical due to the National Building Regulation for Energy Usage in Buildings, which mandates that 50% (by volume) of the annual average hot water demand come from sources other than electric heating or fossil fuels.  ',
         list:'',
-        image:require('../../public/solar-geyser-2.jpg'),
+        image:'/solar-geyser-2.jpg',
     }  
     ,{
         name:'Fencing  Gate Motors',
         icon: <GiIcons.GiGate/>,
         list:'',
         description:'The protection and safety of your family, house, place of business, and property will be greatly enhanced by fencing in Cape Town against unauthorized intruders.        ',
-        image:require('../../public/fencing.jpg'),
+        image:'/fencing.jpg',
     }
     
     ]

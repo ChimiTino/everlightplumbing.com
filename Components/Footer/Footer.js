@@ -16,7 +16,7 @@ function Footer({active1,active2,active3}) {
             <div className='footer'>
 
                 <div className='logo-footer'>
-                    <img src={require('../../public/SGGR.PNG')}/>
+                    <img src='/SGGR.PNG'/>
                     <h1 className='header'>Everlight Plumbing and Property Maintenance</h1>
                 </div>
  

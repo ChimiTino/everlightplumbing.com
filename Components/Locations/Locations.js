@@ -36,7 +36,7 @@ function Locations() {
 
        
     </div>
-     <img className='SAmap' src={require('../../public/image434.png')} alt='Everlight Plumbing Locations'/>
+     <img className='SAmap' src='/image434.png' alt='Everlight Plumbing Locations'/>
 
         
     </div>

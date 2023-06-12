@@ -1,5 +1,4 @@
 
-import img from '../../'
 import React, {useState} from 'react'
 import * as MdIcons from 'react-icons/md'
 import Link from 'next/link'
@@ -29,7 +28,7 @@ function Navigation({active1,active2,active3}) {
 
 <div className='mobile-menu'>
 <Link className='' href='/'>
-<img className='logo-img' src={require('../../public/SGGR.PNG')} alt='Everlight Plaumbing and Construction'/>
+<img className='logo-img' src='/SGGR.PNG' alt='Everlight Plaumbing and Construction'/>
 </Link>
 
 <MdIcons.MdOutlineMenu className='mob-menu' onClick={()=> setTogMenu(true)}/>
@@ -38,7 +37,7 @@ function Navigation({active1,active2,active3}) {
     <div className='nav-container'>
     <div className='nav'>
     <div className='logo'><Link className='font' href='/'>
-<img className='logo-img' src={require('../../public/SGGR.PNG')} alt='Everlight Plaumbing and Construction'/>
+<img className='logo-img' src='/SGGR.PNG' alt='Everlight Plaumbing and Construction'/>
 </Link></div> 
         <nav className='nav-list'>
           <ul>

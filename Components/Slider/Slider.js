@@ -14,8 +14,8 @@ function Slider() {
   return (
     <>
     <div className='chevcont'>
-    <img className='arrow left' src={require('../../public/leftche.png')} alt='arrow'/> 
-    <img className='arrow right' src={require('../../public/leftche.png')} alt='arrow'/>
+    <img className='arrow left' src='/leftche.png' alt='arrow'/> 
+    <img className='arrow right' src='/leftche.png' alt='arrow'/>
     
     </div>
     <div className='Slider-cont'>

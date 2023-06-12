@@ -6,7 +6,7 @@ import Link from 'next/link'
 function Services() {
   return (
     <div className='service-cont'>
-    <img className='ser-back-img' src={require('../../public/AdobeStock_126794517.jpeg')} alt='Everlight Plumbing and Mhime Maintainence Services'/>
+    <img className='ser-back-img' src='/AdobeStock_126794517.jpeg' alt='Everlight Plumbing and Mhime Maintainence Services'/>
     
     <div className='services'>
     <div className='theTriag'></div>
