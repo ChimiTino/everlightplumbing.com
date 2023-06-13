@@ -31,9 +31,9 @@ function Footer({active1,active2,active3}) {
                 <div className='Navigation'>
                   <ul>
                     <li><Link className={active1? 'font act': 'font'} href='/'>Home</Link></li>
-                    <li><Link className={active2? 'font act': 'font'} href='/#/Services'>Services</Link></li>
+                    <li><Link className={active2? 'font act': 'font'} href='/Services'>Services</Link></li>
                     <li><Link className='font' href='#aboutus'>About Us</Link></li>
-                    <li><Link className={active3? 'font act': 'font'} href='/#/ContactUs'>Contact Us</Link></li>
+                    <li><Link className={active3? 'font act': 'font'} href='/ContactUs'>Contact Us</Link></li>
                   </ul>
                 </div>
 
