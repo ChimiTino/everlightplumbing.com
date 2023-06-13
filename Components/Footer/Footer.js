@@ -11,7 +11,7 @@ import Link from 'next/link'
 function Footer({active1,active2,active3}) {
   return (
     <div>
-        <p className='header contact-us-strip'> <Link href='/#/ContactUs'><BsIcon.BsCursorFill className='curser-icon'/> Contact Us</Link> </p>
+        <p className='header contact-us-strip'> <Link href='/ContactUs'><BsIcon.BsCursorFill className='curser-icon'/> Contact Us</Link> </p>
         <div className='footer-container'>
             <div className='footer'>
 

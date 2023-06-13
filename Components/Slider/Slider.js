@@ -33,7 +33,7 @@ function Slider() {
                         <div className='line'></div></h1>
                         <p className='font'>{item.para}</p>
                         <button>
-                          <Link  className='font' href='/#/ContactUs'>{item.buttons}</Link>
+                          <Link  className='font' href='/ContactUs'>{item.buttons}</Link>
                         </button>
                     </div>
                 </div>
