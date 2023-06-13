@@ -4,7 +4,7 @@ export const MainSlider = [
         para:'Established for 20 years Everlight Plumbing & Property Maintenancehas been providing specialist services in the Plumbing and construction fields. Due to our experiance and expertiese here at Everlight Plumbing and Construction we are completely dedicated to client satisfaction, working hard to provide high-quality services to our clients.',
         background: '/16566172657_f3fdb44258_k.jpg',
         icon: '/tools.png',
-        buttons:'Get a Qoute Now'
+        buttons:'Get a Quote Now'
 
     },
     {

@@ -652,8 +652,12 @@ body {
   background-color: rgb(255, 255, 255);
   border: none;
   border-radius: 20vw;
-  margin: 1.8vw;
+  margin: 1.8vw;transition: 0.3s;
   transition-delay: 1s;
+}
+.info-cont button:hover{
+  background-color: rgba(255, 255, 255, 0.788);
+  transition: 0.3s;
 }
 .active button{
   opacity: 1;
