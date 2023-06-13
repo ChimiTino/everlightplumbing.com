@@ -86,8 +86,9 @@ function ContactUs() {
           </select>
 
     </div>
-    <input type="text" className="contact-i font"  placeholder="If other*" name="services" />
-
+    <div className="contact-input">
+          <input type="text" className="contact-i font"  placeholder="If other*" name="otherservices" />
+        </div>
     <p>{error}</p>
         
           {load === 1 && <button className="form-sub font" type="submit">Send</button>}
