@@ -18,7 +18,7 @@ function Navigation({active1,active2,active3}) {
                 <li className={active1? 'active1': ''} ><Link className='font' href='/'>Home</Link></li>
                 <li className={active2? 'active1': ''}><Link className='font' href='/Services'>Services</Link></li>
                 <li className={active3? 'active1': ''}><Link className='font' href='/ContactUs'>Contact Us</Link></li>
-                <p  className='contman'><Link className='font' href="tel: +27762276264">Call Us</Link></p>
+                <p  className='contman'><Link className='font' href="tel: +27663532520">Call Us</Link></p>
                 <p  className='contman'><Link className='font' href="mailto:  admin@everlightcon.co.za">Email Us</Link></p>
               </ul>
           </nav>
@@ -33,7 +33,7 @@ function Navigation({active1,active2,active3}) {
 
 <MdIcons.MdOutlineMenu className='mob-menu' onClick={()=> setTogMenu(true)}/>
   </div>
-<p className='topcall font'><MdIcons.MdOutlineCall className='kwidn'/> Call us: <Link href="tel: +27762276264">+27 762 276 264</Link> </p>
+<p className='topcall font'><MdIcons.MdOutlineCall className='kwidn'/> Call us: <Link  href="tel: +27663532520">+27 663 532 520</Link> </p>
     <div className='nav-container'>
     <div className='nav'>
     <div className='logo'><Link className='font' href='/'>

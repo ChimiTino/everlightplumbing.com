@@ -111,7 +111,7 @@ function ContactUs() {
 <hr/>
            <div className='row'>
             <h3 className='fontHeader '>TELL:</h3>
-            <p className='font'><Link  href="tel: +27762276264">+27 762 276 264</Link></p>
+            <p className='font'><Link  href="tel: +27762276264">+27 663 532 520</Link></p>
            </div>
 <hr/>
            <div className='row'>

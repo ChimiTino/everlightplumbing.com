@@ -24,7 +24,7 @@ function Footer({active1,active2,active3}) {
                 <h3 className='header'>Company Infomation</h3> 
                   <h5 className='font'><MdIcon.MdLocationOn/>382 Voortrekker Road, Cape Town, South Afica</h5>
                 
-                  <h5 className='header'>Cell:</h5><Link className='font' href="tel: +27762276264">+27 76 227 6264</Link>
+                  <h5 className='header'>Cell:</h5><Link className='font' href="tel: +27663532520">+27 663 532 520</Link>
                   <h5 className='header'>Email:</h5> <Link className='font' href="mailto:  admin@everlightcon.co.za">admin@everlightcon.co.za</Link>
                 </div>
  <hr/>
