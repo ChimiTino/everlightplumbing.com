@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 
 import React, {useState} from 'react'
 import * as MdIcons from 'react-icons/md'
